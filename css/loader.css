@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid yellow;
+    border-top: 10px solid grey;
+    animation: load 1s ease-in 0s infinite normal ;
+    /* background-color: aqua; */
+}
+
+@keyframes load {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+    
+}
