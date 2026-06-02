@@ -8,3 +8,4 @@ let red = arr.reduce((pre , curr)=>{
     return pre+curr;
 })
 console.log(red);
+const div = document.querySelector("div");
