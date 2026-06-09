@@ -1,9 +1,9 @@
-function Errormsg(props){
+function Errormsg(items){
 
-  let foodItems = ["apple" , "mango" , "Litchi"]
+  // let foodItems = ["apple" , "mango" , "Litchi"]
   return(
    <>
-     {foodItems.length === 0 && <h3> I am still Hungry</h3>}
+     {items.length === 0 && <h3> I am still Hungry</h3>}
    </>
   );
 }

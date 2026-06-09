@@ -1,11 +1,11 @@
 import Item from "./Item";
 
-function Fooditems() {
-  let foodItems = ["apple" , "mango" , "Litchi"]
+function Fooditems(items) {
+  // let foodItems = ["apple" , "mango" , "Litchi"]
   return(
     <ul className="list-group">
-    {foodItems.map((item) => (
-      <Item foodItems = {item}></Item>
+    {items.map((item) => (
+      <Item key = {items} foodItems = {items}></Item>
     ))}
   </ul>
   );

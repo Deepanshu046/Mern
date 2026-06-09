@@ -11,7 +11,7 @@ function App() {
     <>
       <h1>Healthy food</h1>
       <Errormsg items = {foodItems}></Errormsg>
-      <Fooditems ></Fooditems>
+      <Fooditems items = {foodItems}></Fooditems>
     </>
   );
 }
