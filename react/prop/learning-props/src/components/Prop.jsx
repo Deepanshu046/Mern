@@ -1,8 +1,9 @@
+import style from "./Prop.module.css"
 function Prop({ raj }) {
   console.log(raj);
 
   return (
-    <div>
+    <div className={style.hi}>
       Hello {raj}
     </div>
   );

@@ -2,7 +2,7 @@
 import Prop from "./components/Prop";
 
 function App() {
-  let arr = ["Diya" , "Deepanshu"];
+  let arr = "Deepanshu";
 
   return (
     <>
