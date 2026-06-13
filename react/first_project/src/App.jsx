@@ -1,5 +1,9 @@
+import { useState } from "react";
 import Child from "./component/Child";
 function App(){
+
+  const [data , setData] = useState("Food is Awesome");
+   
   return(
     <>
     <Child>
@@ -10,7 +14,19 @@ function App(){
 
     <Child>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab neque culpa, doloremque ipsa omnis, aspernatur libero nam eius earum explicabo magnam. Quo officiis ullam vel, sit temporibus reprehenderit molestias tempora.</p>
-      </Child></>
+      </Child>
+
+    <Child>
+      <input type="text"  onChange={(e)=>{
+        console.log(e.target.value);
+        setData(e.target.value);
+
+      }}/>
+      <p>{data}</p>
+      </Child>  
+    </>
+
+
   );
 }
 export default App;
