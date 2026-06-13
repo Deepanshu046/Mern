@@ -8,10 +8,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     <Hello/>
-    <Random/>
-    <Random/>
-    <Random/>
-    <Random/>
-    <Random/>
+    <Random/> <Random/>
   </StrictMode>,
 )
